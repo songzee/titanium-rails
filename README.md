@@ -68,6 +68,20 @@ Response:
 /internal/config/config.go # Environment config
 ```
 
+## Testing
+
+Run tests:
+
+```bash
+go test ./...
+```
+
+Run tests with verbose output:
+
+```bash
+go test -v ./...
+```
+
 ## Environment Variables
 
 - `PORT` - Server port (default: 8080)
